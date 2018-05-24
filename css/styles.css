@@ -1,0 +1,179 @@
+
+*,
+*:before, 
+*:after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  color: #2d3c49;
+}
+
+
+.header-text {
+    font-size: 7vw;
+    color: #09f;
+}
+
+.text-item {
+    font-size: 5vw;
+}
+
+.header-name {
+    margin-top: 20px;
+}
+
+.header-title {
+   margin-top: 10px; 
+}
+
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #fff;
+     text-align: center;
+     margin-bottom: 30px;
+}
+
+.featured-work-content, .featured-item {
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    margin-top: 20px;
+}
+
+.featured-content {
+    margin-bottom: 20px;
+}
+
+.featured-work {
+    margin-top: 30px;
+}
+
+
+.featured-item {
+    margin: 20px 0;
+}
+
+/**************************************/
+ .header-img {
+	margin: 25px 10px;
+	border-radius: 25% 10%;;
+	height: 100px;
+	width: 100px;
+	box-shadow: 5px 5px 10px #aaa;
+	transition: background-color .5s;
+}
+
+.featured-img {
+    margin-bottom: 20px;
+}
+/*****************************************/
+
+.hero-img {
+	box-shadow: 4px 4px 4px 0 #888;
+}
+
+a {
+    font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #953;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 480px) {
+    .header-text {
+    font-size: 6vw;
+}
+
+    .text-item {
+    font-size: 4vw;
+}
+    .featured-img {
+        width: 100%;
+        
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .header {
+        justify-content: space-between;
+        margin:0 auto 30px;
+        text-align: left;
+    }
+    
+     
+ .featured-img {
+    width: 500px;
+    height: 225px;
+}
+    
+    
+    .header,
+    .featured-all {
+        display: flex;
+        margin:0 auto;
+        max-width: 1440px;
+    }
+    
+    .featured-all {
+        margin: 30px auto 0;
+    }
+    
+    .featured-item {
+        margin:20px 20px 20px 0;
+    }
+    
+    .featured-item:last-child {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 830px) {
+     .header-text {
+    font-size: 4vw;
+}
+
+    .text-item {
+    font-size: 2vw;
+}
+
+ 
+ .featured-img {
+    width: 500px;
+    height: 225px;
+}
+ 
+
+}
+
+
+@media screen and (min-width: 1230px) {
+     .header-text {
+    font-size: 3vw;
+}
+
+    .text-item {
+    font-size: 2vw;
+}
+
+ 
+ .featured-img {
+    width: 500px;
+    height: 225px;
+}
+ 
+
+}
+
